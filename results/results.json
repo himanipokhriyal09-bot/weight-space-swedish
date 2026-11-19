@@ -1,0 +1,351 @@
+{
+  "probe": {
+    "Baseline": {
+      "mean_advantage": -0.7542961560189724,
+      "en_coherence": 0.6,
+      "per_pair": {
+        "cat": {
+          "correct_sv": "katt",
+          "correct_logit": 0.10653029382228851,
+          "mean_other_sv_logit": 0.04508638009428978,
+          "advantage": 0.061443913727998734
+        },
+        "dog": {
+          "correct_sv": "hund",
+          "correct_logit": -1.759682297706604,
+          "mean_other_sv_logit": -0.2682782709598541,
+          "advantage": -1.4914040565490723
+        },
+        "house": {
+          "correct_sv": "hus",
+          "correct_logit": -1.1728215217590332,
+          "mean_other_sv_logit": 0.4071710407733917,
+          "advantage": -1.5799925327301025
+        },
+        "water": {
+          "correct_sv": "vatten",
+          "correct_logit": -0.1263711303472519,
+          "mean_other_sv_logit": -0.03739478066563606,
+          "advantage": -0.08897635340690613
+        },
+        "book": {
+          "correct_sv": "bok",
+          "correct_logit": -0.6650430560112,
+          "mean_other_sv_logit": 0.007508708164095879,
+          "advantage": -0.6725517511367798
+        }
+      }
+    },
+    "Targeted edit": {
+      "mean_advantage": -0.4070320323109627,
+      "en_coherence": 0.5,
+      "per_pair": {
+        "cat": {
+          "correct_sv": "katt",
+          "correct_logit": 0.09587699919939041,
+          "mean_other_sv_logit": 0.18032847344875336,
+          "advantage": -0.08445147424936295
+        },
+        "dog": {
+          "correct_sv": "hund",
+          "correct_logit": -2.23311448097229,
+          "mean_other_sv_logit": -0.6796202063560486,
+          "advantage": -1.5534942150115967
+        },
+        "house": {
+          "correct_sv": "hus",
+          "correct_logit": 0.8388987183570862,
+          "mean_other_sv_logit": 0.11554893106222153,
+          "advantage": 0.7233498096466064
+        },
+        "water": {
+          "correct_sv": "vatten",
+          "correct_logit": -0.6638487577438354,
+          "mean_other_sv_logit": 0.03772462159395218,
+          "advantage": -0.701573371887207
+        },
+        "book": {
+          "correct_sv": "bok",
+          "correct_logit": -0.9112164974212646,
+          "mean_other_sv_logit": -0.4922255873680115,
+          "advantage": -0.4189909100532532
+        }
+      }
+    },
+    "Random edit": {
+      "mean_advantage": -0.4758931756019592,
+      "en_coherence": 0.5,
+      "per_pair": {
+        "cat": {
+          "correct_sv": "katt",
+          "correct_logit": -0.5191303491592407,
+          "mean_other_sv_logit": -0.09132803231477737,
+          "advantage": -0.42780232429504395
+        },
+        "dog": {
+          "correct_sv": "hund",
+          "correct_logit": -0.8762416243553162,
+          "mean_other_sv_logit": -0.01816859468817711,
+          "advantage": -0.8580730557441711
+        },
+        "house": {
+          "correct_sv": "hus",
+          "correct_logit": -0.5493040084838867,
+          "mean_other_sv_logit": 0.3399890959262848,
+          "advantage": -0.8892930746078491
+        },
+        "water": {
+          "correct_sv": "vatten",
+          "correct_logit": 1.2986423969268799,
+          "mean_other_sv_logit": -0.02567940205335617,
+          "advantage": 1.3243217468261719
+        },
+        "book": {
+          "correct_sv": "bok",
+          "correct_logit": -1.6716904640197754,
+          "mean_other_sv_logit": -0.14307129383087158,
+          "advantage": -1.5286191701889038
+        }
+      }
+    },
+    "Fine-tuned (SGD)": {
+      "mean_advantage": 7.985108375549316,
+      "en_coherence": 0.3,
+      "per_pair": {
+        "cat": {
+          "correct_sv": "katt",
+          "correct_logit": 7.916551113128662,
+          "mean_other_sv_logit": 0.24312779307365417,
+          "advantage": 7.6734232902526855
+        },
+        "dog": {
+          "correct_sv": "hund",
+          "correct_logit": 7.499499320983887,
+          "mean_other_sv_logit": -0.029887497425079346,
+          "advantage": 7.5293869972229
+        },
+        "house": {
+          "correct_sv": "hus",
+          "correct_logit": 7.36129093170166,
+          "mean_other_sv_logit": -0.41545942425727844,
+          "advantage": 7.776750564575195
+        },
+        "water": {
+          "correct_sv": "vatten",
+          "correct_logit": 7.7000885009765625,
+          "mean_other_sv_logit": -0.6703730225563049,
+          "advantage": 8.370461463928223
+        },
+        "book": {
+          "correct_sv": "bok",
+          "correct_logit": 7.754552364349365,
+          "mean_other_sv_logit": -0.820966899394989,
+          "advantage": 8.575519561767578
+        }
+      }
+    }
+  },
+  "held_out": {
+    "Baseline": {
+      "mean_advantage": 0.4954565465450287,
+      "en_coherence": 0.6,
+      "per_pair": {
+        "the": {
+          "correct_sv": "den",
+          "correct_logit": 1.326507806777954,
+          "mean_other_sv_logit": 0.15198935568332672,
+          "advantage": 1.1745184659957886
+        },
+        "and": {
+          "correct_sv": "och",
+          "correct_logit": 0.8537304401397705,
+          "mean_other_sv_logit": -0.25832581520080566,
+          "advantage": 1.1120562553405762
+        },
+        "a": {
+          "correct_sv": "en",
+          "correct_logit": -0.9959704875946045,
+          "mean_other_sv_logit": -0.3794559836387634,
+          "advantage": -0.6165145039558411
+        },
+        "in": {
+          "correct_sv": "i",
+          "correct_logit": 0.6906542778015137,
+          "mean_other_sv_logit": -0.5805073976516724,
+          "advantage": 1.271161675453186
+        },
+        "to": {
+          "correct_sv": "till",
+          "correct_logit": 0.07245675474405289,
+          "mean_other_sv_logit": 0.5363959074020386,
+          "advantage": -0.4639391601085663
+        }
+      }
+    },
+    "Targeted edit": {
+      "mean_advantage": 0.4954565465450287,
+      "en_coherence": 0.5,
+      "per_pair": {
+        "the": {
+          "correct_sv": "den",
+          "correct_logit": 1.326507806777954,
+          "mean_other_sv_logit": 0.15198935568332672,
+          "advantage": 1.1745184659957886
+        },
+        "and": {
+          "correct_sv": "och",
+          "correct_logit": 0.8537304401397705,
+          "mean_other_sv_logit": -0.25832581520080566,
+          "advantage": 1.1120562553405762
+        },
+        "a": {
+          "correct_sv": "en",
+          "correct_logit": -0.9959704875946045,
+          "mean_other_sv_logit": -0.3794559836387634,
+          "advantage": -0.6165145039558411
+        },
+        "in": {
+          "correct_sv": "i",
+          "correct_logit": 0.6906542778015137,
+          "mean_other_sv_logit": -0.5805073976516724,
+          "advantage": 1.271161675453186
+        },
+        "to": {
+          "correct_sv": "till",
+          "correct_logit": 0.07245675474405289,
+          "mean_other_sv_logit": 0.5363959074020386,
+          "advantage": -0.4639391601085663
+        }
+      }
+    },
+    "Random edit": {
+      "mean_advantage": 0.4954565465450287,
+      "en_coherence": 0.5,
+      "per_pair": {
+        "the": {
+          "correct_sv": "den",
+          "correct_logit": 1.326507806777954,
+          "mean_other_sv_logit": 0.15198935568332672,
+          "advantage": 1.1745184659957886
+        },
+        "and": {
+          "correct_sv": "och",
+          "correct_logit": 0.8537304401397705,
+          "mean_other_sv_logit": -0.25832581520080566,
+          "advantage": 1.1120562553405762
+        },
+        "a": {
+          "correct_sv": "en",
+          "correct_logit": -0.9959704875946045,
+          "mean_other_sv_logit": -0.3794559836387634,
+          "advantage": -0.6165145039558411
+        },
+        "in": {
+          "correct_sv": "i",
+          "correct_logit": 0.6906542778015137,
+          "mean_other_sv_logit": -0.5805073976516724,
+          "advantage": 1.271161675453186
+        },
+        "to": {
+          "correct_sv": "till",
+          "correct_logit": 0.07245675474405289,
+          "mean_other_sv_logit": 0.5363959074020386,
+          "advantage": -0.4639391601085663
+        }
+      }
+    },
+    "Fine-tuned (SGD)": {
+      "mean_advantage": 0.4954565465450287,
+      "en_coherence": 0.3,
+      "per_pair": {
+        "the": {
+          "correct_sv": "den",
+          "correct_logit": 1.326507806777954,
+          "mean_other_sv_logit": 0.15198935568332672,
+          "advantage": 1.1745184659957886
+        },
+        "and": {
+          "correct_sv": "och",
+          "correct_logit": 0.8537304401397705,
+          "mean_other_sv_logit": -0.25832581520080566,
+          "advantage": 1.1120562553405762
+        },
+        "a": {
+          "correct_sv": "en",
+          "correct_logit": -0.9959704875946045,
+          "mean_other_sv_logit": -0.3794559836387634,
+          "advantage": -0.6165145039558411
+        },
+        "in": {
+          "correct_sv": "i",
+          "correct_logit": 0.6906542778015137,
+          "mean_other_sv_logit": -0.5805073976516724,
+          "advantage": 1.271161675453186
+        },
+        "to": {
+          "correct_sv": "till",
+          "correct_logit": 0.07245675474405289,
+          "mean_other_sv_logit": 0.5363959074020386,
+          "advantage": -0.4639391601085663
+        }
+      }
+    }
+  },
+  "timing_ms": {
+    "targeted": 0.012744000002840039,
+    "random": 0.1394760000152928,
+    "finetune_200steps": 5.1716190000092865
+  },
+  "config": {
+    "vocab_size": 26,
+    "dim": 32,
+    "alpha_edit": 0.6,
+    "ft_lr": 0.05,
+    "ft_steps": 200,
+    "seed": 42,
+    "probe_pairs": [
+      [
+        "cat",
+        "katt"
+      ],
+      [
+        "dog",
+        "hund"
+      ],
+      [
+        "house",
+        "hus"
+      ],
+      [
+        "water",
+        "vatten"
+      ],
+      [
+        "book",
+        "bok"
+      ]
+    ],
+    "held_out_pairs": [
+      [
+        "the",
+        "den"
+      ],
+      [
+        "and",
+        "och"
+      ],
+      [
+        "a",
+        "en"
+      ],
+      [
+        "in",
+        "i"
+      ],
+      [
+        "to",
+        "till"
+      ]
+    ]
+  }
+}
